@@ -1,7 +1,7 @@
 from tkinter import *
 import tkinter as tk
 import tkinter.messagebox
-#import mysql.connector
+import mysql.connector
 
 import MainMenu #
 
@@ -11,8 +11,8 @@ from MainMenu import AccountsMenu
 
 
 #connecting to the database
-#connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="",database="week3")
-#cursordb = connectiondb.cursor()
+connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="",database="week3")
+cursordb = connectiondb.cursor()
 
 def login():
     global root2
