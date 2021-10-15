@@ -8,6 +8,7 @@ COPY . .
 
 # install dependencies
 RUN pip install --upgrade pip
+RUN pip install mysql-connector-python
 
 # define the port number the container should expose
 EXPOSE 5000
