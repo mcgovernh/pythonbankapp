@@ -15,7 +15,7 @@ from MainMenu import AccountsMenu
 #connecting to the database
 connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="",database="week3")
 cursordb = connectiondb.cursor()
-
+#hugh is great
 def login():
     global root2
     root2 = Toplevel(root)
