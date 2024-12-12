@@ -3,6 +3,7 @@ import tkinter as tk
 import tkinter.messagebox
 import mysql.connector
 # testy westy
+# my favourite martian
 import MainMenu #
 
 sys.path.append(".") # importing classes from other files
