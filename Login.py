@@ -3,13 +3,13 @@ import tkinter as tk
 import tkinter.messagebox
 import mysql.connector
 #my special commit
-#my tardy missfgh
+#my tardy miss
 import MainMenu #
 
 sys.path.append(".") # importing classes from other files
 
 from MainMenu import AccountsMenu
-#tardivevg
+
 
 #connecting to the database
 connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="",database="week3")
