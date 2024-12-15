@@ -2,9 +2,7 @@ from tkinter import *
 import tkinter as tk
 import tkinter.messagebox
 import mysql.connector
-#my special commit
-#my tardy miss
-## this is very mellow dramatic
+#the months mind
 import MainMenu #
 
 sys.path.append(".") # importing classes from other files
@@ -13,7 +11,7 @@ from MainMenu import AccountsMenu
 
 
 #connecting to the database
-connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="",database="week3")
+connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="",database="python_mysql")
 cursordb = connectiondb.cursor()
 
 def login():
