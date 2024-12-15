@@ -3,20 +3,18 @@ from tkinter import *
 import tkinter as tk
 import tkinter.messagebox
 import mysql.connector
-#my special commit
-#my tardy missv2
-#and again
+#the months mind
 import MainMenu #
-# this is great
+
 sys.path.append(".") # importing classes from other files
 
 from MainMenu import AccountsMenu
-#bootie
+
 
 #connecting to the database
 connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="",database="python_mysql")
 cursordb = connectiondb.cursor()
-#hugh is great
+
 def login():
     global root2
     root2 = Toplevel(root)
