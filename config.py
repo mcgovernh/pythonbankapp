@@ -24,7 +24,7 @@ class myClass:
 class database:
     def connect_db():
         #print ("connected to mySQL dbase")
-        return mysql.connector.connect(host="localhost",user="root",password="",database="week3")
+        return mysql.connector.connect(host="localhost",user="root",password="",database="python_mysql")
 
     def connect_getstudent(my_conn):
         my_conn.execute("SELECT * FROM students")
