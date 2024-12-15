@@ -1,3 +1,4 @@
+import sys
 import tkinter as tk
 import tkinter.ttk as ttk
 import mysql.connector
@@ -7,7 +8,7 @@ from tkinter import Menu
 from CreateAccount import *  # imports everything from CreateAccount file
 import config # import global variables for form
 
-sys.path.append(".") # importing classes from other files
+#sys.path.append(".") # importing classes from other files
 
 import Transactions
 from config import database

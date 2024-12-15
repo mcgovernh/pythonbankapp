@@ -1,3 +1,4 @@
+import sys
 from tkinter import *
 import tkinter as tk
 import tkinter.messagebox
@@ -13,7 +14,7 @@ from MainMenu import AccountsMenu
 #bootie
 
 #connecting to the database
-connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="",database="week3")
+connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="",database="python_mysql")
 cursordb = connectiondb.cursor()
 #hugh is great
 def login():
